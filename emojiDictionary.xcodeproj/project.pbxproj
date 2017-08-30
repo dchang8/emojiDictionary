@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C499FFB21F5720A50042F3DB /* DefinitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DefinitionViewController.swift; path = ../DefinitionViewController.swift; sourceTree = "<group>"; };
+		C499FFB21F5720A50042F3DB /* DefinitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefinitionViewController.swift; sourceTree = "<group>"; };
 		C4E0439A1F55BAB100E441D0 /* emojiDictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = emojiDictionary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4E0439D1F55BAB100E441D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C4E0439F1F55BAB100E441D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,6 +40,7 @@
 		C4E043911F55BAB100E441D0 = {
 			isa = PBXGroup;
 			children = (
+				C499FFB21F5720A50042F3DB /* DefinitionViewController.swift */,
 				C4E0439C1F55BAB100E441D0 /* emojiDictionary */,
 				C4E0439B1F55BAB100E441D0 /* Products */,
 			);
@@ -58,7 +59,6 @@
 			children = (
 				C4E0439D1F55BAB100E441D0 /* AppDelegate.swift */,
 				C4E0439F1F55BAB100E441D0 /* ViewController.swift */,
-				C499FFB21F5720A50042F3DB /* DefinitionViewController.swift */,
 				C4E043A11F55BAB100E441D0 /* Main.storyboard */,
 				C4E043A41F55BAB100E441D0 /* Assets.xcassets */,
 				C4E043A61F55BAB100E441D0 /* LaunchScreen.storyboard */,
