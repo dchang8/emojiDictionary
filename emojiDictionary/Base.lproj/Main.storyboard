@@ -57,13 +57,25 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🍕" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cfP-d2-7RI">
-                                <rect key="frame" x="106" y="160" width="163" height="179.5"/>
+                                <rect key="frame" x="106" y="160" width="163" height="180"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="150"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pizza Time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b40-AL-6cj">
-                                <rect key="frame" x="145.5" y="445" width="84" height="21"/>
+                                <rect key="frame" x="146" y="446" width="84" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pizza Time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Smm-ek-SsG">
+                                <rect key="frame" x="145" y="487" width="84" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pizza Time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VcC-kC-1US">
+                                <rect key="frame" x="145" y="528" width="84" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -72,12 +84,18 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="cfP-d2-7RI" firstAttribute="centerX" secondItem="JDX-Tt-E60" secondAttribute="centerX" id="0tk-iN-jDY"/>
+                            <constraint firstItem="Smm-ek-SsG" firstAttribute="top" secondItem="b40-AL-6cj" secondAttribute="bottom" constant="20" id="10C-9e-med"/>
+                            <constraint firstItem="VcC-kC-1US" firstAttribute="top" secondItem="Smm-ek-SsG" secondAttribute="bottom" constant="20" id="93g-3D-3wP"/>
+                            <constraint firstItem="VcC-kC-1US" firstAttribute="centerX" secondItem="JDX-Tt-E60" secondAttribute="centerX" id="Kex-p1-M2U"/>
+                            <constraint firstItem="Smm-ek-SsG" firstAttribute="centerX" secondItem="JDX-Tt-E60" secondAttribute="centerX" id="eaS-Hi-acR"/>
                             <constraint firstItem="b40-AL-6cj" firstAttribute="top" secondItem="cfP-d2-7RI" secondAttribute="bottom" constant="105.5" id="oae-KM-QIn"/>
                             <constraint firstItem="cfP-d2-7RI" firstAttribute="top" secondItem="1k5-Nb-2kW" secondAttribute="bottom" constant="96" id="sjP-D2-rEr"/>
                             <constraint firstItem="b40-AL-6cj" firstAttribute="centerX" secondItem="JDX-Tt-E60" secondAttribute="centerX" id="vGr-R9-v3O"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="birthYearLabel" destination="VcC-kC-1US" id="jZr-TU-Auh"/>
+                        <outlet property="categoryLabel" destination="Smm-ek-SsG" id="LkB-ko-fZY"/>
                         <outlet property="definitionLabel" destination="b40-AL-6cj" id="9Bi-MO-cTl"/>
                         <outlet property="emojiLabel" destination="cfP-d2-7RI" id="rEc-dW-VbA"/>
                     </connections>
